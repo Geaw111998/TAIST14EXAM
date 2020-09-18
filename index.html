@@ -84,9 +84,9 @@
         const arrMax = arr => {return Math.max(...arr)};
 
         function submitFirebase(t) {
-            const projName = document.getElementById('Road Travel').value;
-            const pathName = document.getElementById('Road Sensor').value;
-            let Url = 'https://papatchaya-taist-exam.firebaseio.com/Road Sensor.json';            
+            const projName = document.getElementById('project-name').value;
+            const pathName = document.getElementById('path-name').value;
+            let Url = 'https://Road Travel.firebaseio.com/Road Sensor.json';            
             let Data = {
                 timestamp: t,
                 latitude: posLatitude,
